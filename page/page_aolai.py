@@ -67,3 +67,12 @@ class PageAolai(Base):
     @allure.step("获取页面购物车文本内容")
     def page_get_gw_text(self):
         return self.base_get_text(page.al_gw)
+
+    # 封装登录模块
+    def page_login(self,number="13318041502",password="123456"):
+        self.page_click_wo()
+        self.page_click_zh()
+        self.page_input_number(number)
+        self.page_input_password(password)
+        self.page_click_login_btn()
+        self.page_click_setting()

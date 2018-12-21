@@ -1,0 +1,112 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1545361223560" stop="1545361329404">
+  <name>test_address</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1545361223560" status="passed" stop="1545361297121">
+      <name>TestAddress.test_address[\u5c0f\u767d-13318033111-\u5e7f\u4e1c\u7701-\u5e7f\u5dde\u5e02-\u5929\u6cb3\u533a-\u73e0\u5409\u8def58\u53f7-523000]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3408-MainThread"/>
+        <label name="host" value="PC-201809122316"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1545361223619" status="passed" stop="1545361281042">
+          <name>执行 初始化页面对象</name>
+          <title>执行 初始化页面对象</title>
+          <attachments/>
+          <steps>
+            <step start="1545361268270" status="passed" stop="1545361270434">
+              <name>点击 我</name>
+              <title>点击 我</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1545361270434" status="passed" stop="1545361272624">
+              <name>点击 已有账号登录</name>
+              <title>点击 已有账号登录</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1545361272624" status="passed" stop="1545361274627">
+              <name>输入账号</name>
+              <title>输入账号</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1545361274627" status="passed" stop="1545361277936">
+              <name>输入密码</name>
+              <title>输入密码</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1545361277936" status="passed" stop="1545361278173">
+              <name>点击 登录按钮</name>
+              <title>点击 登录按钮</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1545361278173" status="passed" stop="1545361281042">
+              <name>点击 设置按钮</name>
+              <title>点击 设置按钮</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1545361281044" status="passed" stop="1545361297121">
+          <name>执行 新增信息步骤</name>
+          <title>执行 新增信息步骤</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1545361297123" status="passed" stop="1545361315249">
+      <name>TestAddress.test_update[\u5c0f\u9ed1-13318033222-\u6c5f\u82cf-\u5357\u4eac-\u767d\u4e0b\u533a-\u4e2d\u5c71\u8def39\u53f7-524444]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3408-MainThread"/>
+        <label name="host" value="PC-201809122316"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1545361297126" status="passed" stop="1545361315248">
+          <name>执行 更改信息步骤</name>
+          <title>执行 更改信息步骤</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1545361315251" status="passed" stop="1545361329404">
+      <name>TestAddress.test_delete_address</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3408-MainThread"/>
+        <label name="host" value="PC-201809122316"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1545361315252" status="passed" stop="1545361329404">
+          <name>执行 删除信息步骤</name>
+          <title>执行 删除信息步骤</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1545361329405" status="passed" stop="1545361330997">
+          <name>执行 关闭页面</name>
+          <title>执行 关闭页面</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

@@ -1,0 +1,18 @@
+add_address:
+  address_01:
+    name: "小白"
+    phone: "13318033111"
+    province: "广东省"
+    city: "广州市"
+    area: "天河区"
+    address_info: "珠吉路58号"
+    code: "523000"
+update_address:
+  update_address:
+    name: "小黑"
+    phone: "13318033222"
+    province: "江苏"
+    city: "南京"
+    area: "白下区"
+    address_info: "中山路39号"
+    code: "524444"

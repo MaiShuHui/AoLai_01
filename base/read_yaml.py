@@ -13,13 +13,13 @@ class ReadYaml():
             return yaml.load(f)
 
     def read_yaml_01(self):
-        with open("../data/al_login_data.yaml", "r", encoding="utf-8") as f:
+        with open("../data/address.yaml", "r", encoding="utf-8") as f:
             return yaml.load(f)
 
 
 if __name__ == '__main__':
-    data = []
     arrs = []
-    for data in ReadYaml("al_login_data.yaml").read_yaml_01().values():
-        arrs.append((data.get("number"), data.get("password"), data.get("exepect_result"), data.get("expect_tosat")))
+    for data in ReadYaml("address.yaml").read_yaml_01().values():
+        arrs.append((data.get("name"), data.get("phone"), data.get("province"), data.get("city")
+                        , data.get("area"), data.get("address_info"), data.get("code")))
     print(arrs)
